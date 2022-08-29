@@ -152,3 +152,65 @@ svg:hover{
 .svg-img{
     width: 70px;
 }
+@media(max-width: 767.98px){
+    .nav-list{
+        /* opacity: 0; */
+        display: none;
+    }
+    .row1,.row2{
+        margin-top: 60px;
+        flex-direction: column;
+
+    }
+    .left, right{
+        align-items: center;
+        margin: auto;
+        margin-bottom: 70px;
+        /* width: 100%; */
+
+    }
+    .left p{
+        width: auto;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    svg{
+        width: 400px;
+    }
+    .right-wrapper{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+
+    }
+    .right-text{
+        margin-top: 30px;
+        align-items: center;
+        margin: auto;
+    }
+    .right-text h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .middle-text h1{
+        margin: auto;
+    }
+    .box{
+        display: block;
+    }
+    .boxx{
+        /* border: 3px solid red; */
+        width: 70%;
+        height: 100%;
+        /* padding: 20px; */
+        margin: 20px 40px;
+        display: block;
+        margin: auto;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+}
